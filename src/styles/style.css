@@ -1,0 +1,224 @@
+/* ==============My resets============= */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: #070707;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+ul,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+section {
+  scroll-margin-top: 70px;
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+
+/* ======================HEADER================= */
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 0;
+  border-bottom: 1px solid #828282;
+  background-color: #ffffff;
+  z-index: 100;
+  margin-bottom: 12px;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.section-link {
+  text-decoration: none;
+  color: #828282;
+}
+
+.section-link:hover {
+  cursor: pointer;
+  color: #070707;
+}
+
+.section-link.active {
+  color: #070707;
+}
+
+/* ==============HERO SECTION============== */
+.hero {
+  padding: 0;
+}
+.hero__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.hero__img {
+  width: 100%;
+  height: 387px;
+}
+
+/* ==================ABOUT ME SECTION================= */
+.about {
+  text-align: center;
+  padding: 100px 245px;
+  background-color: #f6f6f6;
+}
+
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* ================SKILLS SECTION============ */
+.skills {
+  text-align: center;
+}
+.skills__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: center;
+  gap: 97px;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__item > img {
+  margin-bottom: 25px;
+}
+.skills__icon {
+  height: 80px;
+  width: 80px;
+}
+.skills__figma-icon {
+  height: 80px;
+  width: 53.33px;
+}
+.skills__item > span {
+  margin-bottom: 60px;
+}
+
+/* ============PORTFOLIO SECTION=============== */
+.portfolio {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.portfolio__item-text {
+  display: inline-block;
+  margin-top: 40px;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+/* =======================CONTACTS SECTION================ */
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.heading-wrapper {
+  max-width: 280px;
+  text-align: center;
+}
+
+.contacts__title.section-title {
+  margin-bottom: 20px;
+}
+
+.links {
+  text-align: center;
+}
+
+.contact__btn {
+  background-color: #070707;
+  color: #ffffff;
+  width: 180px;
+  height: 44px;
+  border-radius: 22px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.contact__btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contact__btn {
+  font-weight: 700;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.social-link-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-link-icon:hover {
+  transform: scale(1.2);
+}
+
+.contact-text {
+  margin-top: 60px;
+}
+
+.contact-text {
+  font-size: 14px;
+  color: #828282;
+}
