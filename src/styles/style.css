@@ -40,13 +40,17 @@ section {
   position: sticky;
   top: 0;
   left: 0;
-  width: 100%;
-  padding: 25px 0;
-  border-bottom: 1px solid #828282;
   background-color: #ffffff;
   z-index: 100;
   margin-bottom: 12px;
 }
+
+.wrapper {
+  border-bottom: 1px solid #828282;
+  width: 100%;
+  padding: 25px 0;
+}
+
 .nav-list {
   display: flex;
   justify-content: center;
